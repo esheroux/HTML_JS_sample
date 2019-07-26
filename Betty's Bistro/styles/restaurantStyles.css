@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+body {
+  text-align: center;
+  color: navy;
+  font-family: Kalam,regular;
+}
+
+hr {
+  height:1px;
+  border:none;
+  background-color:darkblue;
+}
+
+h1.title {
+  margin-top: 10
+  text-align: center;
+  font-family: Kalam,bold;
+  color: navy
+}
+
+a:link {
+  color: navy;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: royalblue;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:active {
+  color: cornflowerblue;
+  font-weight: normal;
+}
+
+footer {
+  text-align: center;
+  font-family: serif;
+}

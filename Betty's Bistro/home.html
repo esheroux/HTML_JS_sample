@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--
+Name: Beth Cox
+Created: 7-16-19
+Updated: 7-20-19 14:23
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Home Page</title>
+
+    <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="styles/restaurantStyles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <noscript><h4 style="color:red;font-family: serif;">JavaScript is disable on this browser. This site is best viewed with JavaScript enabled.</h4></noscript>
+
+    <div class="jumbotron text-center"
+         style="background-image: url('images/new_location_jumbo.jpg');
+          background-repeat:no-repeat; background-size:cover;
+          color:white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;" >
+      <h1 class="display-4">We're opening a new location!<br/>
+          Thank you for all of your support.
+      </h1>
+    </div>
+
+    <header>
+      <p><h1 class="title">Betty's Bistro</h1></p>
+    </header>
+
+
+    <hr />
+
+    <nav class="nav nav-tabs nav-justified">
+          <a class="nav-link active" style="text-decoration: none;" href="home.html"><i class="material-icons">home</i></a>
+          <a class="nav-link" href="menu.html">Menu</a>
+          <a class="nav-link" href="contact.html">Contact Us</a>
+    </nav>
+
+    <hr />
+
+
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+      <div class="col-10 offset-1" style="height:400px;">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="mx-auto d-block" style="height:400px;" src="images/new_location.jpg" alt="New Location">
+          <div class="carousel-caption d-none d-sm-block">
+            <h1 style="text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px darkblue;">
+            New Downtown Location!</h1>
+            <h2 style="text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px darkblue;">
+            Same great food with a fesh new view.
+            </h2>
+          </div>
+          <div class="carousel-caption d-block d-sm-none">
+            <h1 style="text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px darkblue;">New Downtown Location!</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="mx-auto d-block" style="height:400px;" src="images/new_menu_items.jpg" alt="New Menu">
+          <div class="carousel-caption d-none d-sm-block">
+            <h1 style="text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px darkblue;">
+            New Seasonal Menu!</h1>
+            <h2 style="text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px darkblue;">
+            Come join us and enjoy our new seasonal dinner menu, full of the local fare you love with a classy twist.
+            </h2>
+          </div>
+          <div class="carousel-caption d-block d-sm-none">
+            <h1 style="text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px darkblue;">New Seasonal Menu!</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="mx-auto d-block" style="height:400px;" src="images/SG_special_brew.jpg" alt="SG Special Brew">
+          <div class="carousel-caption d-none d-sm-block">
+            <h1 style="text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px darkblue;">
+            The Drink of the Month is SG Special Brew.</h1>
+            <h2 style="text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px darkblue;">
+            Don't forget to pick up your cup before it's gone!
+            </h2>
+          </div>
+          <div class="carousel-caption d-block d-sm-none">
+            <h1 style="text-shadow: 1px 1px 2px black, 0 0 25px yellow, 0 0 5px darkblue;">New Drink of the Month!</h1>
+          </div>
+        </div>
+        <div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <i class="material-icons">chevron_left</i>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <i class="material-icons">chevron_right</i>
+        </a>
+        </div>
+      </div>
+      </div>
+
+
+  </head>
+  <body>
+    <div style="background-image: linear-gradient(lightblue, lemonchiffon); background-repeat: no-repeat;">
+      <div class="mx-auto" style="width: 400px;">
+      <img src="images/table-for-two.jpg" alt="Table for Two" class="img-fluid"/>
+    </div>
+      <p></p>
+      <h5 class="col-10 mx-auto">
+          Betty's Bistro is the place to get healthy, delicious, homemade lunch and dinner. We use only fresh ingredients form local sources.<br/>
+          We have both indoor and outdoor seating, including a rooftop patio, open seasonally. We also offer take-out and delivery to home or office.<br/>
+          Call today to reserve your table or place an order.
+      </h5>
+    </div>
+      <hr  />
+  </body>
+
+  <footer>
+    <p>365 Eat St., St. Paul, MN, 55102<br>
+       651-555-8927</p>
+  </footer>
+
+    <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>
